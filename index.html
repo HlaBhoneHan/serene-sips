@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="images/Americano.jpg" />
+    <link rel="shortcut icon" href="images/Americano.jpg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,12 +14,14 @@
     <title>Serene Sip</title>
   </head>
   <body>
+    <!-- header section -->
     <header id="header">
-      <h1>WELCOME TO SERENE SIP</h1>
+      <h1>Welcome to Serene Sips</h1>
       <p>Indulge in the finest coffee experience crafted just for you</p>
       <a href="#our-menu">Explore Our Menu</a>
     </header>
 
+    <!-- nav section -->
     <nav>
       <a href="#header">Home</a>
       <a href="#our-menu">Menu</a>
@@ -27,6 +29,7 @@
       <a href="#contact-us">Contact</a>
     </nav>
 
+    <!-- our menu section -->
     <section id="our-menu">
       <h2>Our Menu</h2>
       <div class="menu">
@@ -95,6 +98,8 @@
         </div>
       </div>
     </section>
+
+    <!-- about us section  -->
     <section id="about-us">
       <h2>ABOUT US</h2>
       <p>Welcome to the Serene Sips Cafe, where every cafe tells a story!</p>
@@ -123,33 +128,35 @@
       </p>
     </section>
 
+    <!-- contact us section  -->
     <section id="contact-us">
       <h2>CONTACT US</h2>
       <p>
         We'd love to hear from you! Reach out to us with any questions,
         feedback, or special requests.
       </p>
-      <div>
-        <label for="name">Your Name</label>
-        <input type="text" id="name" />
-      </div>
-      <div>
-        <label for="email">Your Email</label>
-        <input type="text" id="email" />
-      </div>
-      <div>
-        <label for="message">Your Message</label>
-        <input type="text" id="message" />
-      </div>
+      <form action="">
+        <div>
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" id="name" class="form-control" />
+        </div>
+        <div>
+          <label for="email" class="form-label">Your Email</label>
+          <input type="text" id="email" class="form-control" />
+        </div>
+        <div>
+          <label for="message" class="form-label">Your Message</label>
+          <input type="text" id="message" class="form-control" />
+        </div>
 
-      <input type="submit" value="Send Message" />
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
     </section>
 
-    <section>
-      <footer>
-        <p>copyright &copy; 2024. All rights reserved.</p>
-        <a href="#header">&uarr;</a>
-      </footer>
-    </section>
+    <!-- footer section  -->
+    <footer>
+      <p>copyright &copy; 2024. All rights reserved.</p>
+      <a href="#header">&uarr;</a>
+    </footer>
   </body>
 </html>
