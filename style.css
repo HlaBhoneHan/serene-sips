@@ -11,7 +11,7 @@ color: #49281a;
 
 /* header section  */
 header {
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
   text-align: center;
   padding: 100px 0;
 }
@@ -65,7 +65,7 @@ nav a:hover {
 #about-us,
 #contact-us,
 footer {
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
   width: 90%;
   margin: 20px auto;
 }
@@ -76,7 +76,44 @@ footer {
   font-family: "Playfair Display SC", serif;
   margin-bottom: 15px;
 }
+.menu h3 {
+  font-family: "Lato", sans-serif;
+  padding: 20px 0;
+}
 
+.card {
+  border: 1px solid #000;
+  width: 300px;
+  padding: 10px;
+}
+.card-img-top {
+  max-width: 100%;
+}
+.card-body {
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Lato", sans-serif;
+}
+
+.card-title {
+  padding: 10px 0;
+}
+.card-text {
+  line-height: 1.5;
+}
+.price {
+  font-weight: bold;
+  font-style: italic;
+}
+.btn-order {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  margin-top: 10px;
+  background-color: #49281a;
+  color: #f0e2c5;
+}
 /* #about-us section  */
 #about-us p,
 #contact-us p,
@@ -130,4 +167,8 @@ form div {
 footer p {
   text-align: center;
   font-size: 0.9;
+}
+
+.fa-square-caret-up {
+  color: #49281a;
 }

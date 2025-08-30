@@ -4,12 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/Americano.jpg" type="image/x-icon" />
+
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- external stylesheet -->
     <link rel="stylesheet" href="style.css" />
     <title>Serene Sip</title>
   </head>
@@ -31,70 +44,44 @@
 
     <!-- our menu section -->
     <section id="our-menu">
-      <h2>Our Menu</h2>
       <div class="menu">
-        <h3>Coffee Selections</h3>
+        <h2>Our Menu</h2>
         <div>
-          <img src="images/Americano.jpg" alt="" />
-          <h4>Americano</h4>
-          <p>
-            - Strong and black coffee. Perfect for the bold coffee enthusiast.
-            $2.50
-          </p>
-          <button>Order</button>
+          <h3>Coffee Selections</h3>
+          <div class="card">
+            <img class="card-img-top" src="images/Americano.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Americano</h4>
+              <p class="card-text">
+                Strong and black coffee. <br />
+                Perfect for the bold coffee enthusiast. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
+          </div>
         </div>
-        <div>
-          <img src="images/Americano.jpg" alt="" />
-          <h4>Americano</h4>
-          <p>
-            - Strong and black coffee. Perfect for the bold coffee enthusiast.
-            $2.50
-          </p>
-          <button>Order</button>
-        </div>
-        <div>
-          <img src="images/Americano.jpg" alt="" />
-          <h4>Americano</h4>
-          <p>
-            - Strong and black coffee. Perfect for the bold coffee enthusiast.
-            $2.50
-          </p>
-          <button>Order</button>
-        </div>
-        <div>
-          <img src="images/Americano.jpg" alt="" />
-          <h4>Americano</h4>
-          <p>
-            - Strong and black coffee. Perfect for the bold coffee enthusiast.
-            $2.50
-          </p>
-          <button>Order</button>
-        </div>
+      </div>
 
+      <div class="menu">
         <h3>Delicious Snacks</h3>
-        <div>
-          <img src="images/Classic Croissant.png" alt="" />
-          <h4>Classic Croissant</h4>
-          <p>- Light, flaky, and buttery. A timeless delight. $2.50</p>
-          <button>Order</button>
-        </div>
-        <div>
-          <img src="images/Classic Croissant.png" alt="" />
-          <h4>Classic Croissant</h4>
-          <p>- Light, flaky, and buttery. A timeless delight. $2.50</p>
-          <button>Order</button>
-        </div>
-        <div>
-          <img src="images/Classic Croissant.png" alt="" />
-          <h4>Classic Croissant</h4>
-          <p>- Light, flaky, and buttery. A timeless delight. $2.50</p>
-          <button>Order</button>
-        </div>
-        <div>
-          <img src="images/Classic Croissant.png" alt="" />
-          <h4>Classic Croissant</h4>
-          <p>- Light, flaky, and buttery. A timeless delight. $2.50</p>
-          <button>Order</button>
+        <div class="card">
+          <div>
+            <img
+              class="card-img-top"
+              src="images/Classic Croissant.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h4 class="card-title">Classic Croissant</h4>
+              <p class="card-text">
+                Light, flaky, and buttery. <br />
+                A timeless delight. <br />
+                <span class="price">$2.50</span>
+              </p>
+              <button class="btn-order">Order</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -156,7 +143,17 @@
     <!-- footer section  -->
     <footer>
       <p>copyright &copy; 2024. All rights reserved.</p>
-      <a href="#header">&uarr;</a>
+      <a href="#header">
+        <i class="fa-regular fa-square-caret-up fa-2x"></i>
+      </a>
     </footer>
+
+    <!-- fontawesome js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js"
+      integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>
