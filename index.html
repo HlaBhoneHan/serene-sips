@@ -25,10 +25,18 @@
     <!-- external stylesheet -->
     <link rel="stylesheet" href="style.css" />
     <title>Serene Sip</title>
+    <style>
+      .Background {
+        background-image: url(images/Back-Image.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+    </style>
   </head>
   <body>
     <!-- header section -->
-    <header id="header">
+    <header id="header" class="Background">
       <h1>Welcome to Serene Sips</h1>
       <p>Indulge in the finest coffee experience crafted just for you</p>
       <a href="#our-menu">Explore Our Menu</a>
@@ -59,6 +67,57 @@
               </p>
               <button class="btn-order">Order</button>
             </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/espresso-drinks-flat-white-1536x864.jpg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">Flat White</h4>
+                <p class="card-text">
+                  Smooth espresso with silky microfoam. <br />
+                  Perfect for a creamy yet bold taste. <br />
+                  <span class="price">$3.00</span>
+                </p>
+                <button class="btn-order">Order</button>
+              </div>
+
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/espresso-drinks-latte-1536x1152.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Latte</h4>
+                  <p class="card-text">
+                    Espresso with steamed milk and light foam. <br />
+                    Perfect for a smooth and mellow coffee. <br />
+                    <span class="price">$3.50</span>
+                  </p>
+                  <button class="btn-order">Order</button>
+                </div>
+
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/Greyhound-Mandaluyong-Philippines-Mocha-latte.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Mocha</h4>
+                    <p class="card-text">
+                      Espresso blended with chocolate and steamed milk. <br />
+                      Perfect for coffee lovers with a sweet tooth. <br />
+                      <span class="price">$4.00</span>
+                    </p>
+                    <button class="btn-order">Order</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -67,19 +126,56 @@
         <h3>Delicious Snacks</h3>
         <div class="card">
           <div>
-            <img
-              class="card-img-top"
-              src="images/Classic Croissant.png"
-              alt=""
-            />
+            <img class="card-img-top" src="images/Icecream.jpg" alt="" />
             <div class="card-body">
-              <h4 class="card-title">Classic Croissant</h4>
+              <h4 class="card-title">Ice Cream</h4>
               <p class="card-text">
                 Light, flaky, and buttery. <br />
                 A timeless delight. <br />
                 <span class="price">$2.50</span>
               </p>
               <button class="btn-order">Order</button>
+            </div>
+
+            <div class="card">
+              <div>
+                <img class="card-img-top" src="images/popcorn1.webp" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Popcorn</h4>
+                  <p class="card-text">
+                    Freshly popped and lightly salted. <br />
+                    Perfect for a crunchy, classic snack. <br />
+                    <span class="price">$2.00</span>
+                  </p>
+                  <button class="btn-order">Order</button>
+                </div>
+
+                <div class="card">
+                  <img class="card-img-top" src="images/Hamburger.jpg" alt="" />
+                  <div class="card-body">
+                    <h4 class="card-title">Hamburger</h4>
+                    <p class="card-text">
+                      Juicy beef patty with fresh lettuce and tomato. <br />
+                      Perfect for a hearty, satisfying meal. <br />
+                      <span class="price">$5.00</span>
+                    </p>
+                    <button class="btn-order">Order</button>
+                  </div>
+
+                  <div class="card">
+                    <img class="card-img-top" src="images/Potato.webp" alt="" />
+                    <div class="card-body">
+                      <h4 class="card-title">Potato Chips</h4>
+                      <p class="card-text">
+                        Crispy and lightly salted slices. <br />
+                        Perfect for a quick, crunchy snack. <br />
+                        <span class="price">$1.50</span>
+                      </p>
+                      <button class="btn-order">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
