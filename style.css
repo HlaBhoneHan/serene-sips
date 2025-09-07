@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
 background-color: #f0e2c5;
 color: #49281a;
@@ -14,8 +19,21 @@ header {
   /* border: 2px solid #000; */
   text-align: center;
   padding: 100px 0;
+  background-image: url(images/Back-Image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
 }
 
+header .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 header h1 {
   font-family: "Playfair Display SC", serif;
   margin-bottom: 30px;
@@ -42,6 +60,8 @@ nav {
   text-align: center;
   padding: 20px 0;
   background-color: #49281a;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
@@ -167,6 +187,12 @@ form div {
 footer p {
   text-align: center;
   font-size: 0.9;
+}
+
+footer a {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 
 .fa-square-caret-up {
